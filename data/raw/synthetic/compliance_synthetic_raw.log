@@ -1,0 +1,800 @@
+[AUDIT] 2026-10-15T04:48:52+00:00 user=user015 host=ws-012 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-06T15:26:27+00:00 user=user055 host=ws-037 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-05T07:34:27+00:00 user=user027 host=ws-008 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-17T21:02:37+00:00 user=user004 host=ws-030 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-26T01:55:59+00:00 user=user030 host=ws-023 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-17T07:01:26+00:00 user=user007 host=ws-010 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-26T17:12:53+00:00 user=user059 host=ws-018 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-11T12:10:49+00:00 user=user027 host=fw-edge-01 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-28T16:04:19+00:00 user=alice.wang host=ws-037 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T07:29:12+00:00 user=alice.wang host=ws-004 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T22:25:13+00:00 user=carol.kumar host=ws-004 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-12T12:17:36+00:00 user=user017 host=ws-039 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-20T03:39:57+00:00 user=user055 host=fw-edge-01 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-08T21:25:51+00:00 user=user059 host=ws-031 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-05T22:42:17+00:00 user=user055 host=ws-027 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-28T10:18:51+00:00 user=user022 host=ws-037 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-08T09:28:33+00:00 user=user018 host=ws-039 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-22T18:48:57+00:00 user=jane.smith host=ws-037 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-11T22:46:07+00:00 user=user021 host=srv-mail-01 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-23T18:20:52+00:00 user=user015 host=ws-015 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-19T07:08:32+00:00 user=user014 host=ws-033 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-14T12:34:57+00:00 user=user012 host=ws-006 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-30T08:41:57+00:00 user=user020 host=ws-019 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-07T20:58:15+00:00 user=user009 host=srv-web-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T09:29:30+00:00 user=user032 host=ws-005 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-20T03:12:28+00:00 user=user035 host=ws-004 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-30T11:05:11+00:00 user=user052 host=dc-secondary action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T20:01:36+00:00 user=user050 host=ws-034 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-03T16:41:25+00:00 user=user020 host=ws-037 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-11T08:59:55+00:00 user=user024 host=ws-034 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-18T09:42:30+00:00 user=user027 host=ws-037 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-11T07:30:00+00:00 user=user015 host=ws-009 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-15T17:27:02+00:00 user=user039 host=ws-004 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T11:09:17+00:00 user=user009 host=fw-edge-01 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-28T01:57:02+00:00 user=user027 host=ws-008 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-14T22:14:41+00:00 user=user017 host=ws-009 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-09T04:49:29+00:00 user=emily.garcia host=ws-023 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-21T17:55:53+00:00 user=user057 host=ws-038 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-07T10:53:10+00:00 user=user007 host=srv-file-01 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-26T19:01:28+00:00 user=user024 host=ws-008 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-16T21:21:22+00:00 user=user043 host=ws-037 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-20T11:08:27+00:00 user=user001 host=ws-018 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-24T10:31:07+00:00 user=user003 host=ws-006 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-09T05:53:16+00:00 user=user056 host=ws-019 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-21T02:57:46+00:00 user=user032 host=ws-024 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-30T14:25:18+00:00 user=user013 host=dc-secondary action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-22T18:18:09+00:00 user=user007 host=ws-019 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-22T07:34:10+00:00 user=user058 host=ws-029 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-08T06:35:07+00:00 user=user041 host=ws-019 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-26T08:12:43+00:00 user=emily.garcia host=ws-001 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-30T17:07:19+00:00 user=user026 host=ws-034 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-14T00:01:00+00:00 user=user058 host=fw-edge-01 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-05T16:19:25+00:00 user=user050 host=ws-008 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-04T12:18:33+00:00 user=user014 host=ws-037 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-12T08:58:40+00:00 user=user015 host=ws-033 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-07T12:00:51+00:00 user=user015 host=ws-037 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-18T16:30:32+00:00 user=user021 host=ws-032 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-13T23:09:46+00:00 user=user019 host=ws-004 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-08T06:20:25+00:00 user=user005 host=ws-038 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-06T15:25:57+00:00 user=user047 host=ws-003 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-28T15:37:08+00:00 user=user006 host=ws-005 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-02T06:14:59+00:00 user=user006 host=ws-038 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-16T09:01:20+00:00 user=user039 host=ws-022 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-17T09:49:17+00:00 user=user020 host=ws-015 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T21:03:09+00:00 user=user054 host=ws-029 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-24T20:53:03+00:00 user=user001 host=ws-037 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-24T17:28:33+00:00 user=user014 host=ws-007 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-12T01:05:46+00:00 user=user020 host=ws-010 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-22T14:43:01+00:00 user=user019 host=ws-008 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-22T04:44:35+00:00 user=user040 host=ws-009 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-18T12:58:32+00:00 user=user046 host=ws-001 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-30T13:53:47+00:00 user=user036 host=lb-prod-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-07T07:26:48+00:00 user=carol.kumar host=ws-007 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T13:39:13+00:00 user=user058 host=ws-024 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-26T08:53:33+00:00 user=user031 host=ws-035 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-19T19:01:50+00:00 user=user057 host=ws-012 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-02T15:53:50+00:00 user=user046 host=ws-038 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-25T17:44:25+00:00 user=user018 host=ws-009 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-06T01:46:45+00:00 user=user024 host=ws-002 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-01T18:44:11+00:00 user=user058 host=ws-012 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-09T01:34:50+00:00 user=user046 host=ws-032 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-17T21:03:10+00:00 user=user017 host=ws-036 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-18T15:00:31+00:00 user=user036 host=ws-032 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-17T04:52:58+00:00 user=user014 host=ws-014 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-06T10:57:28+00:00 user=alice.wang host=ws-010 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-22T20:19:49+00:00 user=user056 host=ws-032 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-21T08:53:27+00:00 user=user030 host=ws-018 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-21T17:43:49+00:00 user=user021 host=ws-018 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-06T06:03:24+00:00 user=user014 host=ws-001 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T10:20:55+00:00 user=user059 host=ws-018 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-11T13:03:20+00:00 user=user056 host=ws-010 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-15T03:35:26+00:00 user=frank.müller host=ws-005 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-24T04:39:33+00:00 user=jane.smith host=ws-001 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-07T19:24:01+00:00 user=user027 host=ws-006 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-07T14:01:02+00:00 user=emily.garcia host=dc-primary action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-09T02:29:25+00:00 user=user057 host=ws-023 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-20T21:40:03+00:00 user=user050 host=ws-032 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-18T03:39:13+00:00 user=user015 host=ws-033 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-02T03:26:37+00:00 user=user027 host=ws-008 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-08T02:53:27+00:00 user=user009 host=ws-037 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-02T06:53:58+00:00 user=user001 host=ws-022 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-30T00:40:51+00:00 user=john.doe host=ws-013 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-15T12:35:43+00:00 user=user039 host=ws-017 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-09T20:30:59+00:00 user=user042 host=srv-web-01 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-19T23:38:21+00:00 user=alice.wang host=ws-012 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-14T07:07:41+00:00 user=user041 host=ws-030 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T21:12:47+00:00 user=user012 host=ws-011 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-19T14:47:40+00:00 user=user022 host=ws-035 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-01T04:53:34+00:00 user=user029 host=srv-mail-01 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-24T15:15:01+00:00 user=user009 host=ws-020 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-30T11:24:21+00:00 user=user049 host=ws-005 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-09T01:56:13+00:00 user=user015 host=ws-016 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-19T09:34:50+00:00 user=user049 host=fw-edge-01 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-27T11:25:06+00:00 user=carol.kumar host=fw-edge-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-07T15:32:14+00:00 user=user026 host=srv-web-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-12T22:23:48+00:00 user=user017 host=ws-017 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-19T00:46:39+00:00 user=user009 host=ws-028 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-11T14:48:59+00:00 user=user017 host=dc-primary action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-07T13:36:09+00:00 user=user008 host=fw-edge-01 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-10T14:38:40+00:00 user=user024 host=ws-029 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-27T15:41:21+00:00 user=emily.garcia host=ws-031 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-30T08:43:41+00:00 user=user003 host=ws-021 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-23T07:29:51+00:00 user=user033 host=ws-022 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-01T10:20:50+00:00 user=user005 host=ws-033 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-08T02:55:26+00:00 user=user024 host=ws-034 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-03T12:46:57+00:00 user=user049 host=ws-019 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-16T06:11:18+00:00 user=user030 host=ws-010 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-16T04:27:12+00:00 user=user048 host=ws-014 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-12T22:37:20+00:00 user=user012 host=srv-db-01 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-24T05:15:43+00:00 user=user042 host=ws-034 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-13T04:19:41+00:00 user=user039 host=ws-020 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-23T22:06:31+00:00 user=user027 host=ws-020 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-12T07:46:31+00:00 user=user045 host=ws-033 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-18T01:12:18+00:00 user=user018 host=ws-022 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-25T11:27:04+00:00 user=user005 host=fw-edge-01 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-07T04:40:23+00:00 user=user057 host=ws-026 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-09T22:01:12+00:00 user=user053 host=ws-033 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-10T13:04:53+00:00 user=user052 host=srv-file-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-01T12:36:31+00:00 user=user002 host=ws-016 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-26T19:16:44+00:00 user=user029 host=lb-prod-01 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-23T08:15:27+00:00 user=user015 host=ws-005 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-17T02:28:37+00:00 user=user012 host=ws-037 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-21T17:16:53+00:00 user=alice.wang host=ws-034 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-30T20:22:10+00:00 user=user020 host=ws-014 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-12T20:20:17+00:00 user=user058 host=ws-039 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-30T21:48:11+00:00 user=alice.wang host=ws-009 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-15T09:21:26+00:00 user=user020 host=ws-020 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T17:34:26+00:00 user=user026 host=ws-033 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-13T01:06:58+00:00 user=user031 host=ws-007 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-02T04:50:31+00:00 user=user044 host=ws-034 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-17T19:11:38+00:00 user=user017 host=ws-024 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-03T06:45:55+00:00 user=user028 host=lb-prod-01 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-11T10:01:37+00:00 user=user019 host=ws-016 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-28T02:01:45+00:00 user=user050 host=ws-007 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-21T09:59:02+00:00 user=user040 host=dc-secondary action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-19T02:31:41+00:00 user=user028 host=ws-025 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-19T16:27:02+00:00 user=user013 host=ws-012 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-26T22:20:55+00:00 user=user052 host=ws-034 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-11T11:38:05+00:00 user=user042 host=ws-035 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-01T09:36:49+00:00 user=user024 host=ws-022 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-26T16:29:01+00:00 user=user018 host=ws-021 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-25T17:41:11+00:00 user=user005 host=ws-027 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-29T08:42:22+00:00 user=user012 host=ws-028 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-11T02:29:58+00:00 user=emily.garcia host=ws-023 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-29T09:07:39+00:00 user=user025 host=ws-024 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-06T13:22:00+00:00 user=user011 host=ws-017 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-26T15:00:12+00:00 user=emily.garcia host=fw-edge-01 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-30T23:49:16+00:00 user=alice.wang host=ws-022 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-28T18:41:20+00:00 user=user059 host=ws-006 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-18T13:35:52+00:00 user=user047 host=ws-016 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-01T07:39:06+00:00 user=user056 host=ws-017 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-05T06:54:47+00:00 user=user004 host=ws-010 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-25T04:06:45+00:00 user=user033 host=srv-file-01 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-08T22:00:12+00:00 user=user057 host=ws-008 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-22T15:11:36+00:00 user=bob.chen host=ws-015 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-21T12:35:57+00:00 user=user051 host=ws-029 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-12T21:26:14+00:00 user=frank.müller host=ws-018 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-01T11:05:01+00:00 user=user015 host=ws-031 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-20T20:19:57+00:00 user=user049 host=ws-018 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-24T16:56:43+00:00 user=david.lee host=ws-006 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-18T15:52:12+00:00 user=user018 host=ws-018 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-24T05:44:23+00:00 user=user024 host=ws-013 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-20T17:18:39+00:00 user=user013 host=ws-002 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T22:49:08+00:00 user=user040 host=ws-009 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-17T01:53:49+00:00 user=carol.kumar host=ws-001 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T23:44:38+00:00 user=jane.smith host=ws-026 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-03T02:42:22+00:00 user=user027 host=ws-034 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-19T19:34:38+00:00 user=user028 host=ws-035 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-25T01:45:24+00:00 user=user039 host=ws-036 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-13T21:53:44+00:00 user=user040 host=ws-029 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-27T18:40:40+00:00 user=user053 host=ws-036 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-08T22:37:58+00:00 user=user044 host=srv-db-01 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-29T00:43:11+00:00 user=user025 host=ws-013 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-15T11:19:56+00:00 user=user038 host=ws-014 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-20T02:29:17+00:00 user=user015 host=ws-026 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-13T17:12:09+00:00 user=user047 host=ws-022 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-30T12:50:14+00:00 user=user012 host=ws-020 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-02T04:21:16+00:00 user=user053 host=ws-028 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-26T09:27:16+00:00 user=user052 host=ws-001 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-11T10:16:19+00:00 user=user016 host=ws-037 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-11T16:51:10+00:00 user=user030 host=ws-004 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-02T14:04:11+00:00 user=user042 host=ws-020 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-12T00:34:18+00:00 user=user008 host=dc-secondary action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-23T18:34:33+00:00 user=user018 host=ws-028 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-17T22:04:29+00:00 user=user004 host=ws-019 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-10T19:31:47+00:00 user=user039 host=ws-009 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-03T09:55:01+00:00 user=david.lee host=ws-024 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-29T01:36:15+00:00 user=user055 host=srv-file-01 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-23T09:50:56+00:00 user=user053 host=ws-007 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-10T06:41:43+00:00 user=user051 host=ws-035 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-13T17:38:29+00:00 user=user001 host=ws-028 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-21T18:02:22+00:00 user=user036 host=ws-002 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-15T04:04:23+00:00 user=user047 host=ws-030 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T06:34:00+00:00 user=user021 host=ws-030 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-26T08:18:44+00:00 user=user032 host=ws-022 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-18T15:52:25+00:00 user=user038 host=ws-005 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-09T00:59:37+00:00 user=user013 host=ws-028 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-26T17:59:55+00:00 user=user023 host=ws-020 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-18T02:42:37+00:00 user=user046 host=ws-001 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-19T07:43:26+00:00 user=user013 host=ws-025 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-27T05:49:37+00:00 user=user046 host=ws-016 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-02T02:25:55+00:00 user=bob.chen host=srv-file-01 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-21T11:41:29+00:00 user=user039 host=srv-mail-01 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-17T06:52:11+00:00 user=user036 host=ws-029 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-16T19:13:11+00:00 user=user055 host=ws-035 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-16T01:11:15+00:00 user=user041 host=ws-035 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-10T18:27:26+00:00 user=user002 host=ws-004 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-10T11:06:56+00:00 user=user015 host=ws-009 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-26T18:07:36+00:00 user=user043 host=srv-db-01 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-04T07:31:48+00:00 user=user043 host=ws-003 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-12T13:00:39+00:00 user=user052 host=ws-031 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-20T02:32:32+00:00 user=user052 host=ws-016 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-06T03:39:27+00:00 user=bob.chen host=ws-022 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-16T23:09:53+00:00 user=user025 host=ws-013 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-07T22:58:36+00:00 user=user018 host=ws-029 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-19T12:55:15+00:00 user=user001 host=ws-027 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-25T12:30:53+00:00 user=user008 host=ws-026 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T11:10:51+00:00 user=frank.müller host=ws-015 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-03T17:08:36+00:00 user=user032 host=ws-022 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-17T12:06:02+00:00 user=user038 host=ws-036 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-16T23:31:04+00:00 user=user038 host=ws-019 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-07T23:51:06+00:00 user=user032 host=ws-009 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-29T10:19:10+00:00 user=user030 host=ws-031 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T00:42:09+00:00 user=user037 host=ws-004 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-14T07:25:06+00:00 user=user024 host=ws-005 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-06T01:23:04+00:00 user=user038 host=ws-027 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-02T03:02:16+00:00 user=john.doe host=srv-db-01 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-08T22:37:53+00:00 user=user010 host=ws-005 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-01T20:43:39+00:00 user=user028 host=ws-015 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-11T04:11:10+00:00 user=user054 host=dc-primary action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-03T13:57:19+00:00 user=alice.wang host=ws-038 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T15:32:20+00:00 user=user040 host=fw-edge-01 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-11T16:42:19+00:00 user=user009 host=ws-028 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-28T00:04:57+00:00 user=user048 host=ws-009 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-12T02:30:12+00:00 user=user044 host=ws-023 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-07T21:33:04+00:00 user=user056 host=ws-020 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-04T09:19:55+00:00 user=bob.chen host=ws-021 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-18T11:11:47+00:00 user=user044 host=srv-mail-01 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-02T22:32:20+00:00 user=user055 host=ws-027 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-29T23:56:34+00:00 user=bob.chen host=srv-web-01 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-20T17:52:46+00:00 user=user012 host=ws-027 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-23T08:16:54+00:00 user=user026 host=ws-029 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-15T17:51:41+00:00 user=user020 host=ws-028 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-15T07:57:43+00:00 user=user049 host=ws-024 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-16T06:59:15+00:00 user=user027 host=ws-008 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-01T05:42:45+00:00 user=user024 host=ws-014 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-02T19:54:25+00:00 user=user059 host=ws-015 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-25T20:54:14+00:00 user=user058 host=ws-004 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-20T01:39:14+00:00 user=user013 host=ws-036 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-10T15:10:44+00:00 user=user056 host=ws-035 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T20:03:07+00:00 user=user055 host=ws-023 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-15T05:14:48+00:00 user=user052 host=srv-mail-01 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-12T17:13:23+00:00 user=user014 host=ws-016 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-26T07:38:17+00:00 user=bob.chen host=ws-023 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-09T13:52:16+00:00 user=user058 host=ws-026 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-01T03:12:59+00:00 user=user027 host=ws-039 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T16:42:00+00:00 user=user019 host=ws-001 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-30T07:00:56+00:00 user=user058 host=ws-023 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-18T23:12:08+00:00 user=david.lee host=ws-004 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-06T01:17:11+00:00 user=user041 host=srv-db-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T05:44:08+00:00 user=user047 host=ws-015 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-30T04:53:31+00:00 user=user025 host=lb-prod-01 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-30T15:20:29+00:00 user=user016 host=ws-010 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-07T04:51:59+00:00 user=user054 host=ws-017 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-04T04:12:20+00:00 user=carol.kumar host=ws-025 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-19T17:10:35+00:00 user=user003 host=srv-web-01 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-22T15:53:33+00:00 user=user014 host=ws-021 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-10T07:33:00+00:00 user=user006 host=ws-030 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-13T06:56:05+00:00 user=user027 host=ws-001 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-18T12:14:28+00:00 user=user027 host=ws-018 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T01:52:57+00:00 user=user020 host=dc-primary action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-30T02:56:06+00:00 user=user002 host=srv-db-01 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-12T19:45:18+00:00 user=user009 host=ws-001 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T00:54:38+00:00 user=user001 host=ws-015 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-25T11:36:23+00:00 user=user021 host=ws-027 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-23T12:24:06+00:00 user=user050 host=ws-009 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-14T12:16:36+00:00 user=user050 host=ws-029 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T19:08:42+00:00 user=user018 host=ws-035 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-24T17:08:15+00:00 user=user027 host=ws-039 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-15T08:29:27+00:00 user=user018 host=ws-010 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-29T20:20:43+00:00 user=user008 host=dc-secondary action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-06T15:23:26+00:00 user=user026 host=ws-019 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-27T10:30:52+00:00 user=user044 host=ws-032 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T03:33:39+00:00 user=user047 host=ws-022 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-18T10:49:59+00:00 user=user027 host=ws-030 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-01T16:52:06+00:00 user=user030 host=srv-file-01 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-13T15:09:03+00:00 user=user059 host=lb-prod-01 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-16T06:03:26+00:00 user=user021 host=ws-006 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-04T01:15:31+00:00 user=user018 host=ws-039 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-29T04:39:18+00:00 user=frank.müller host=ws-039 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-30T14:10:30+00:00 user=user004 host=ws-039 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-19T05:24:38+00:00 user=user024 host=ws-016 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-19T07:22:11+00:00 user=user044 host=ws-036 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-25T19:47:41+00:00 user=user057 host=ws-025 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-12T08:27:26+00:00 user=user049 host=ws-018 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T08:25:43+00:00 user=user025 host=ws-013 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-09T05:53:07+00:00 user=user054 host=ws-029 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-19T18:58:58+00:00 user=user051 host=ws-038 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-04T03:42:23+00:00 user=user023 host=ws-001 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-28T07:26:50+00:00 user=user037 host=ws-005 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-03T11:14:49+00:00 user=user004 host=ws-026 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-27T21:30:17+00:00 user=user019 host=ws-026 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-23T20:58:12+00:00 user=user039 host=ws-023 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-08T21:42:05+00:00 user=user019 host=ws-037 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-17T08:01:49+00:00 user=user056 host=srv-mail-01 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-20T14:55:49+00:00 user=user013 host=ws-015 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T03:53:04+00:00 user=user022 host=ws-005 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-04T19:33:42+00:00 user=user003 host=ws-010 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-28T12:21:49+00:00 user=user050 host=ws-011 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-07T10:36:35+00:00 user=carol.kumar host=ws-026 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-22T14:57:35+00:00 user=user016 host=ws-015 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-08T21:05:48+00:00 user=user008 host=ws-019 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-26T16:37:10+00:00 user=user052 host=ws-024 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-25T05:06:37+00:00 user=user006 host=ws-032 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-12T09:14:27+00:00 user=user023 host=dc-secondary action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-13T06:19:02+00:00 user=user055 host=ws-028 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T12:39:11+00:00 user=user045 host=ws-003 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-28T01:15:31+00:00 user=user052 host=ws-019 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-30T14:44:31+00:00 user=john.doe host=ws-016 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-28T08:22:25+00:00 user=user029 host=ws-027 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-11T21:02:04+00:00 user=user001 host=ws-028 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-08T04:59:59+00:00 user=user056 host=srv-db-01 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-08T19:29:18+00:00 user=user019 host=ws-039 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-29T01:14:40+00:00 user=user030 host=lb-prod-01 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-28T05:45:57+00:00 user=user022 host=ws-021 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-30T13:14:44+00:00 user=user038 host=ws-018 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-06T07:01:42+00:00 user=jane.smith host=ws-039 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-06T21:23:00+00:00 user=user006 host=ws-022 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-15T10:15:34+00:00 user=user034 host=ws-024 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-09T03:07:30+00:00 user=user051 host=ws-007 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-16T07:06:09+00:00 user=user048 host=ws-013 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-22T17:21:10+00:00 user=user003 host=ws-006 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-12T14:11:34+00:00 user=user043 host=ws-032 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-10T00:11:22+00:00 user=emily.garcia host=ws-038 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-25T10:38:10+00:00 user=user055 host=ws-014 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-12T02:32:21+00:00 user=user045 host=ws-008 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-03T14:00:55+00:00 user=user017 host=ws-039 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-29T11:55:57+00:00 user=user055 host=ws-023 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-10T06:55:38+00:00 user=user035 host=ws-038 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-19T23:14:05+00:00 user=user024 host=ws-010 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-24T11:55:45+00:00 user=user028 host=ws-017 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-26T20:23:51+00:00 user=user038 host=ws-011 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-01T05:15:44+00:00 user=user050 host=ws-007 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-07T14:39:01+00:00 user=emily.garcia host=lb-prod-01 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-12T15:13:34+00:00 user=user054 host=fw-edge-01 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-01T18:27:29+00:00 user=carol.kumar host=ws-004 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-24T06:48:34+00:00 user=user029 host=ws-025 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-04T10:09:04+00:00 user=user047 host=srv-file-01 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-11T09:53:00+00:00 user=bob.chen host=ws-010 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-15T18:07:04+00:00 user=frank.müller host=ws-026 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-19T23:51:27+00:00 user=user027 host=ws-021 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T01:57:01+00:00 user=user027 host=ws-020 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T00:26:19+00:00 user=user051 host=ws-031 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-13T02:13:48+00:00 user=david.lee host=ws-015 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-23T12:54:23+00:00 user=user007 host=ws-033 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-04T11:23:50+00:00 user=user009 host=ws-010 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-04T23:12:25+00:00 user=user020 host=ws-025 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-13T16:02:16+00:00 user=user048 host=srv-mail-01 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-25T17:46:16+00:00 user=user029 host=srv-db-01 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-07T17:47:49+00:00 user=user014 host=ws-013 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-05T07:26:57+00:00 user=user006 host=ws-006 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T06:43:26+00:00 user=user058 host=ws-014 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-09T10:59:32+00:00 user=user041 host=ws-017 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-12T21:24:14+00:00 user=alice.wang host=ws-022 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-23T20:14:56+00:00 user=user014 host=ws-038 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T18:52:30+00:00 user=user029 host=ws-004 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-11T10:08:15+00:00 user=user019 host=ws-008 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-25T15:33:05+00:00 user=user059 host=ws-011 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-27T08:51:05+00:00 user=user029 host=lb-prod-01 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-30T11:59:51+00:00 user=user056 host=srv-db-01 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-23T22:26:48+00:00 user=user036 host=ws-017 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-04T02:49:56+00:00 user=user011 host=ws-017 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-26T11:42:09+00:00 user=user039 host=srv-db-01 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-18T18:00:19+00:00 user=user036 host=ws-004 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-10T15:36:49+00:00 user=user043 host=ws-012 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-23T09:10:20+00:00 user=user003 host=srv-file-01 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-13T20:34:53+00:00 user=user051 host=ws-029 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-29T21:22:42+00:00 user=user037 host=srv-file-01 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-10T02:33:03+00:00 user=user045 host=ws-031 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-10T03:58:48+00:00 user=user037 host=ws-028 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-29T17:51:45+00:00 user=john.doe host=dc-primary action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-28T19:44:55+00:00 user=user053 host=ws-023 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-30T00:24:43+00:00 user=user023 host=ws-013 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-30T07:32:41+00:00 user=frank.müller host=fw-edge-01 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-22T21:06:53+00:00 user=user011 host=ws-030 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-04T18:12:38+00:00 user=user023 host=ws-011 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-20T13:09:52+00:00 user=user030 host=ws-002 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-27T06:25:35+00:00 user=user047 host=ws-026 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-16T13:59:10+00:00 user=user010 host=ws-002 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-19T02:14:01+00:00 user=user044 host=ws-011 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-16T19:47:42+00:00 user=user005 host=ws-014 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-10T22:22:09+00:00 user=user014 host=ws-013 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-11T13:27:01+00:00 user=user042 host=ws-005 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-28T01:45:01+00:00 user=user034 host=dc-primary action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-16T06:35:02+00:00 user=user013 host=ws-037 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-05T04:04:24+00:00 user=user045 host=ws-023 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-02T08:09:16+00:00 user=user004 host=ws-031 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T05:50:14+00:00 user=user047 host=dc-primary action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-13T03:12:12+00:00 user=user033 host=srv-file-01 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-26T20:24:51+00:00 user=user009 host=ws-006 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-17T17:48:56+00:00 user=user052 host=ws-001 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-20T18:03:27+00:00 user=user052 host=ws-026 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-10T00:21:28+00:00 user=user006 host=ws-033 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-09T03:08:47+00:00 user=user016 host=ws-003 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-03T09:21:55+00:00 user=user045 host=ws-024 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-04T22:50:32+00:00 user=user008 host=ws-031 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-13T09:18:41+00:00 user=user015 host=dc-primary action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-17T06:39:09+00:00 user=emily.garcia host=lb-prod-01 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-24T23:33:39+00:00 user=user028 host=ws-034 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-22T16:14:07+00:00 user=user027 host=ws-026 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-22T12:44:39+00:00 user=user051 host=ws-033 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-13T10:34:21+00:00 user=user009 host=ws-008 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-07T14:19:11+00:00 user=user026 host=ws-010 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-22T19:06:23+00:00 user=user053 host=ws-035 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-10T07:27:46+00:00 user=user006 host=ws-011 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-10T17:50:56+00:00 user=alice.wang host=ws-030 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-26T01:42:11+00:00 user=user058 host=ws-033 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-02T21:39:04+00:00 user=user012 host=ws-010 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-12T20:07:19+00:00 user=user022 host=ws-022 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-29T09:04:34+00:00 user=user035 host=ws-034 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-24T08:02:40+00:00 user=user054 host=ws-029 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-27T11:11:20+00:00 user=user057 host=ws-020 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-09T14:04:46+00:00 user=user008 host=dc-secondary action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-18T19:53:44+00:00 user=user011 host=ws-039 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T05:14:15+00:00 user=user055 host=ws-013 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-02T07:11:32+00:00 user=user004 host=fw-edge-01 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-05T09:54:07+00:00 user=user033 host=ws-022 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-23T19:43:47+00:00 user=user037 host=ws-025 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-15T10:04:39+00:00 user=user035 host=ws-004 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-09T07:45:01+00:00 user=user058 host=ws-019 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-28T14:03:41+00:00 user=user031 host=srv-file-01 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-06T08:10:46+00:00 user=user018 host=ws-015 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-29T14:14:10+00:00 user=user038 host=ws-028 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-02T03:47:22+00:00 user=user018 host=srv-file-01 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T04:15:24+00:00 user=user033 host=ws-008 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-23T11:22:44+00:00 user=alice.wang host=ws-004 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-19T11:55:35+00:00 user=user050 host=ws-012 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-15T04:38:53+00:00 user=user027 host=ws-038 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-03T11:45:04+00:00 user=user038 host=ws-017 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-06T17:27:34+00:00 user=user030 host=ws-029 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-30T06:49:35+00:00 user=user051 host=ws-028 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-07T09:48:05+00:00 user=jane.smith host=ws-029 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-12T15:01:52+00:00 user=user026 host=dc-secondary action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-24T13:07:39+00:00 user=user019 host=ws-009 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-04T13:17:10+00:00 user=user005 host=ws-012 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-13T00:03:53+00:00 user=user038 host=ws-026 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T14:12:51+00:00 user=user026 host=ws-031 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-16T20:41:19+00:00 user=user011 host=srv-mail-01 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-23T05:30:14+00:00 user=user029 host=ws-013 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T08:38:39+00:00 user=user049 host=ws-022 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-07T19:18:53+00:00 user=user025 host=ws-008 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-04T21:22:20+00:00 user=user058 host=ws-002 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-01T11:36:50+00:00 user=user033 host=ws-033 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-23T04:10:46+00:00 user=user038 host=ws-030 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-24T05:30:16+00:00 user=john.doe host=srv-web-01 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-10T10:39:21+00:00 user=jane.smith host=ws-034 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-04T07:17:35+00:00 user=user051 host=lb-prod-01 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-11T01:56:06+00:00 user=user015 host=ws-009 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-15T19:00:59+00:00 user=user049 host=ws-005 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-29T06:58:48+00:00 user=user019 host=srv-mail-01 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-30T12:15:29+00:00 user=user053 host=ws-012 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-13T14:00:32+00:00 user=user009 host=ws-014 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-20T23:26:34+00:00 user=user018 host=ws-011 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T03:13:12+00:00 user=user004 host=ws-036 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-22T18:42:39+00:00 user=user031 host=ws-039 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-25T12:52:12+00:00 user=user052 host=ws-006 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-28T08:01:02+00:00 user=user047 host=ws-026 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-15T14:20:50+00:00 user=john.doe host=ws-023 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-20T04:46:35+00:00 user=user046 host=ws-016 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-27T07:51:58+00:00 user=user008 host=dc-secondary action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-11T23:00:14+00:00 user=user027 host=ws-035 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T15:19:09+00:00 user=emily.garcia host=ws-033 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-10T05:01:36+00:00 user=user015 host=ws-023 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-09T20:35:52+00:00 user=user046 host=dc-primary action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-30T09:12:19+00:00 user=user057 host=ws-033 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-11T10:57:02+00:00 user=user015 host=ws-036 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-01T14:46:15+00:00 user=user051 host=ws-032 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-22T22:38:08+00:00 user=user018 host=dc-secondary action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T14:15:52+00:00 user=alice.wang host=ws-015 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-15T05:10:54+00:00 user=user018 host=ws-003 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-24T12:26:54+00:00 user=user048 host=ws-007 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-26T10:38:37+00:00 user=user010 host=ws-011 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-29T13:01:47+00:00 user=user008 host=ws-003 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-29T00:39:45+00:00 user=user035 host=ws-036 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-09T14:56:54+00:00 user=user049 host=ws-033 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-30T15:28:42+00:00 user=user040 host=ws-019 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T18:51:34+00:00 user=carol.kumar host=ws-024 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-20T11:12:03+00:00 user=john.doe host=ws-004 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-29T07:06:50+00:00 user=carol.kumar host=ws-025 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-30T11:55:32+00:00 user=user047 host=ws-027 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-22T08:54:36+00:00 user=user029 host=srv-web-01 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-08T09:39:53+00:00 user=user017 host=ws-017 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-04T07:46:25+00:00 user=user041 host=fw-edge-01 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-20T12:38:55+00:00 user=user023 host=ws-031 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-24T04:51:48+00:00 user=user022 host=ws-029 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-14T21:03:19+00:00 user=user016 host=ws-002 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-03T13:55:04+00:00 user=user029 host=ws-024 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T10:22:09+00:00 user=user054 host=ws-035 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-11T19:00:05+00:00 user=user038 host=srv-db-01 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-16T09:46:33+00:00 user=user020 host=ws-022 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-08T21:01:51+00:00 user=user011 host=dc-primary action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T20:23:44+00:00 user=user021 host=ws-025 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-04T14:37:28+00:00 user=user055 host=ws-028 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-17T01:49:40+00:00 user=user046 host=ws-019 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-28T01:20:52+00:00 user=user043 host=ws-018 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-22T14:01:48+00:00 user=user001 host=ws-006 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-13T08:15:47+00:00 user=user040 host=srv-mail-01 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-28T09:21:51+00:00 user=user044 host=ws-023 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-14T15:08:18+00:00 user=user029 host=ws-006 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T04:13:20+00:00 user=user028 host=ws-006 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-16T11:59:14+00:00 user=user049 host=ws-026 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-16T17:47:47+00:00 user=user010 host=ws-021 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-02T01:11:41+00:00 user=jane.smith host=ws-020 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-20T23:06:44+00:00 user=user025 host=ws-017 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-06T22:52:48+00:00 user=user037 host=ws-008 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-18T00:24:55+00:00 user=user042 host=ws-020 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-28T09:30:00+00:00 user=user019 host=ws-036 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-21T07:43:48+00:00 user=user036 host=ws-007 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-04T04:09:10+00:00 user=user021 host=ws-039 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-24T16:46:38+00:00 user=user026 host=ws-004 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T17:32:49+00:00 user=user018 host=ws-025 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-12T09:43:51+00:00 user=carol.kumar host=lb-prod-01 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-10T21:41:09+00:00 user=user054 host=ws-002 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-18T00:51:22+00:00 user=user048 host=ws-026 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-22T23:43:48+00:00 user=user058 host=ws-001 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-11T16:56:57+00:00 user=user058 host=ws-018 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-28T03:16:18+00:00 user=user058 host=ws-035 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-30T23:11:19+00:00 user=alice.wang host=ws-033 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-21T06:49:31+00:00 user=user018 host=ws-030 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-11T14:31:27+00:00 user=user031 host=ws-031 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-16T08:06:07+00:00 user=user043 host=srv-file-01 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-29T02:07:10+00:00 user=user051 host=lb-prod-01 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T23:24:56+00:00 user=user038 host=srv-file-01 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-03T15:38:47+00:00 user=user038 host=ws-026 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-26T08:18:13+00:00 user=emily.garcia host=srv-file-01 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-16T04:03:16+00:00 user=user038 host=ws-031 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-02T23:06:53+00:00 user=user008 host=ws-024 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-17T02:52:46+00:00 user=user027 host=ws-032 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-16T02:37:17+00:00 user=user022 host=ws-032 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-14T14:57:08+00:00 user=david.lee host=ws-028 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-09T16:12:10+00:00 user=user017 host=fw-edge-01 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-30T17:21:18+00:00 user=user003 host=ws-034 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-22T05:40:21+00:00 user=user052 host=ws-010 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-09T07:05:56+00:00 user=user016 host=ws-004 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-28T01:36:36+00:00 user=emily.garcia host=ws-030 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T21:54:58+00:00 user=user021 host=srv-mail-01 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T13:21:04+00:00 user=user020 host=ws-020 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-20T09:21:14+00:00 user=user019 host=fw-edge-01 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-24T05:13:39+00:00 user=user048 host=srv-file-01 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-08T10:27:17+00:00 user=emily.garcia host=ws-026 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-18T19:25:52+00:00 user=user032 host=ws-009 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-18T12:21:26+00:00 user=user044 host=fw-edge-01 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-27T05:05:05+00:00 user=john.doe host=ws-038 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-07T22:51:15+00:00 user=user038 host=ws-011 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-19T14:28:29+00:00 user=user029 host=ws-029 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-08T12:29:30+00:00 user=user037 host=ws-001 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-07T19:39:12+00:00 user=user040 host=ws-002 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-21T11:12:13+00:00 user=user002 host=ws-007 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-03T22:17:58+00:00 user=user051 host=ws-039 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-15T13:47:54+00:00 user=user052 host=ws-024 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-23T17:52:45+00:00 user=user058 host=ws-027 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-04T12:07:56+00:00 user=user040 host=ws-004 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T10:30:33+00:00 user=user008 host=ws-019 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-11T08:22:56+00:00 user=user046 host=ws-002 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-19T11:25:42+00:00 user=user003 host=ws-013 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-07T23:43:41+00:00 user=user041 host=ws-005 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-27T12:28:26+00:00 user=user048 host=ws-024 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-09T20:50:09+00:00 user=user044 host=ws-027 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-26T03:18:37+00:00 user=user012 host=ws-035 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-25T21:16:53+00:00 user=user052 host=ws-001 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-29T18:58:34+00:00 user=jane.smith host=ws-014 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-21T06:55:38+00:00 user=david.lee host=ws-036 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-29T19:00:35+00:00 user=user048 host=ws-012 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T23:26:55+00:00 user=user048 host=ws-039 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-27T14:01:52+00:00 user=user018 host=dc-secondary action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-05T17:37:03+00:00 user=user042 host=srv-web-01 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-18T03:46:16+00:00 user=user004 host=ws-031 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-18T05:46:14+00:00 user=user058 host=srv-db-01 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-11T20:42:29+00:00 user=user047 host=ws-011 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-22T21:23:00+00:00 user=user030 host=ws-013 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-21T01:08:38+00:00 user=user003 host=ws-024 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-05T21:14:46+00:00 user=alice.wang host=ws-028 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-21T12:36:21+00:00 user=frank.müller host=ws-015 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-16T09:38:38+00:00 user=user015 host=srv-mail-01 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-09T20:01:23+00:00 user=user039 host=ws-003 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-06T06:13:43+00:00 user=alice.wang host=ws-037 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T22:09:13+00:00 user=user042 host=ws-003 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-20T16:45:17+00:00 user=user054 host=srv-db-01 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-19T00:14:36+00:00 user=user051 host=ws-002 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-20T00:27:27+00:00 user=user052 host=ws-008 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-15T01:00:49+00:00 user=user001 host=ws-017 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-13T23:28:06+00:00 user=user031 host=ws-004 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-17T08:58:16+00:00 user=john.doe host=ws-029 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-23T11:37:31+00:00 user=user026 host=ws-029 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-07T07:40:52+00:00 user=user014 host=ws-019 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-27T12:00:59+00:00 user=user015 host=ws-022 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-10T20:11:28+00:00 user=david.lee host=ws-013 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-03T19:41:05+00:00 user=user012 host=ws-025 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-05T02:31:31+00:00 user=carol.kumar host=ws-003 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-01T18:12:12+00:00 user=user033 host=ws-019 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-04T05:33:56+00:00 user=user009 host=ws-031 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-01T20:06:53+00:00 user=user017 host=ws-015 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T21:41:49+00:00 user=user014 host=srv-mail-01 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-12T14:15:13+00:00 user=user038 host=srv-web-01 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-03T14:28:31+00:00 user=user052 host=ws-002 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-01T01:58:02+00:00 user=user023 host=ws-025 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-24T11:10:21+00:00 user=emily.garcia host=ws-027 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-08T21:25:39+00:00 user=user005 host=ws-014 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-28T06:12:48+00:00 user=user022 host=ws-027 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-02T08:08:52+00:00 user=jane.smith host=ws-037 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T01:01:50+00:00 user=user008 host=ws-006 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-21T20:00:12+00:00 user=frank.müller host=ws-025 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-05T14:49:38+00:00 user=user009 host=ws-013 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-21T01:16:31+00:00 user=user026 host=srv-web-01 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-24T07:57:38+00:00 user=user013 host=dc-primary action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T07:11:34+00:00 user=user046 host=ws-014 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-17T17:13:21+00:00 user=user007 host=ws-039 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-22T09:09:00+00:00 user=user030 host=ws-035 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-30T03:27:20+00:00 user=user013 host=ws-003 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-24T08:15:10+00:00 user=carol.kumar host=srv-mail-01 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-03T16:11:53+00:00 user=user052 host=ws-017 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-15T01:25:09+00:00 user=user036 host=ws-035 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-12T21:13:38+00:00 user=john.doe host=ws-036 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T08:28:43+00:00 user=user059 host=ws-020 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-10T23:16:54+00:00 user=user018 host=ws-030 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-03T10:59:32+00:00 user=user018 host=ws-024 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-19T02:15:59+00:00 user=user037 host=lb-prod-01 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-22T03:52:25+00:00 user=user023 host=ws-011 action=config_change controls=SOC2 CC8.1 violation=YES:SOC2-ChangeWithoutApproval
+[AUDIT] 2026-10-09T19:53:00+00:00 user=user023 host=ws-023 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-28T04:14:05+00:00 user=user037 host=ws-032 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-24T02:21:04+00:00 user=user017 host=ws-039 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-27T15:40:17+00:00 user=user028 host=ws-032 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-09T13:40:58+00:00 user=user004 host=ws-004 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-15T22:44:28+00:00 user=user025 host=srv-file-01 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-28T16:01:08+00:00 user=user009 host=srv-db-01 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-19T10:26:42+00:00 user=user020 host=ws-007 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-29T06:09:23+00:00 user=user004 host=ws-031 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-19T04:27:03+00:00 user=user034 host=ws-016 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T03:19:17+00:00 user=user035 host=ws-034 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-09T20:24:02+00:00 user=user034 host=ws-029 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-16T17:46:24+00:00 user=user048 host=ws-029 action=access_review controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-27T02:08:16+00:00 user=user004 host=ws-030 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-23T19:52:16+00:00 user=user040 host=ws-012 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-05T21:14:03+00:00 user=user036 host=srv-mail-01 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-01T09:09:23+00:00 user=user052 host=ws-022 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-07T13:36:02+00:00 user=user057 host=ws-008 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-06T04:41:33+00:00 user=user021 host=srv-file-01 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-19T07:09:06+00:00 user=user012 host=srv-db-01 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-02T19:51:55+00:00 user=user006 host=ws-036 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-26T02:22:32+00:00 user=user017 host=ws-009 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-30T11:55:01+00:00 user=user020 host=ws-021 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-05T06:42:26+00:00 user=jane.smith host=ws-026 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-04T15:22:48+00:00 user=user026 host=srv-db-01 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-06T14:29:05+00:00 user=jane.smith host=ws-036 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-24T03:47:10+00:00 user=user053 host=ws-024 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-10T17:34:41+00:00 user=user036 host=ws-001 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-19T02:49:11+00:00 user=user019 host=ws-005 action=policy_reviewed controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-15T14:26:13+00:00 user=user045 host=ws-010 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-25T05:23:59+00:00 user=user039 host=ws-011 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-04T08:21:34+00:00 user=emily.garcia host=ws-022 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-12T04:17:22+00:00 user=user052 host=ws-004 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-17T07:01:55+00:00 user=user031 host=ws-012 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-01T13:37:17+00:00 user=user003 host=ws-005 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-05T23:29:35+00:00 user=user020 host=ws-005 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-16T01:07:44+00:00 user=user055 host=ws-027 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-21T08:44:50+00:00 user=user043 host=ws-010 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-13T18:57:56+00:00 user=carol.kumar host=srv-file-01 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-05T15:59:29+00:00 user=user047 host=ws-006 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T02:01:15+00:00 user=user021 host=ws-005 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-18T18:58:48+00:00 user=user028 host=srv-db-01 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T23:31:20+00:00 user=user039 host=ws-015 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-02T17:21:14+00:00 user=user030 host=ws-018 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-11T18:40:26+00:00 user=user016 host=ws-034 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T01:09:34+00:00 user=user004 host=ws-011 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-07T16:05:27+00:00 user=user037 host=ws-002 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-15T21:22:34+00:00 user=alice.wang host=ws-027 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-03T10:23:30+00:00 user=john.doe host=ws-039 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-04T02:39:43+00:00 user=user012 host=ws-010 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-20T01:46:51+00:00 user=user017 host=ws-012 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-09T21:47:01+00:00 user=user026 host=ws-013 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-09T17:49:46+00:00 user=user007 host=ws-035 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T10:28:46+00:00 user=emily.garcia host=ws-004 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-05T22:22:55+00:00 user=david.lee host=ws-027 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-15T09:27:13+00:00 user=frank.müller host=ws-032 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-30T04:24:57+00:00 user=user030 host=ws-001 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-06T12:17:28+00:00 user=user009 host=ws-029 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-16T06:20:34+00:00 user=user001 host=ws-018 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-03T21:51:06+00:00 user=user038 host=ws-010 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-05T16:16:12+00:00 user=user055 host=ws-003 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-13T16:50:39+00:00 user=user007 host=ws-009 action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-27T11:04:54+00:00 user=user033 host=ws-015 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-09T12:17:16+00:00 user=bob.chen host=ws-012 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T03:43:14+00:00 user=user017 host=ws-002 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-20T03:36:59+00:00 user=user043 host=srv-web-01 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-28T17:43:50+00:00 user=user017 host=ws-032 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-25T19:50:48+00:00 user=user058 host=ws-035 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-30T20:47:27+00:00 user=user054 host=ws-013 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-24T02:34:42+00:00 user=user044 host=ws-035 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-18T16:33:05+00:00 user=user015 host=ws-022 action=data_transmit controls=HIPAA §164.312(e) violation=YES:HIPAA-EncryptionViolation
+[AUDIT] 2026-10-12T04:10:06+00:00 user=user038 host=dc-primary action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-11T20:05:01+00:00 user=user022 host=ws-011 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-27T06:41:36+00:00 user=user048 host=ws-001 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-23T07:47:29+00:00 user=user042 host=ws-013 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-04T19:47:51+00:00 user=user053 host=ws-021 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-08T21:58:11+00:00 user=emily.garcia host=srv-db-01 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-12T11:07:16+00:00 user=user043 host=ws-014 action=access_review controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-20T06:19:21+00:00 user=user013 host=ws-010 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T21:48:13+00:00 user=jane.smith host=ws-035 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-19T03:28:06+00:00 user=user040 host=dc-secondary action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-14T17:48:38+00:00 user=user023 host=ws-017 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-20T19:23:29+00:00 user=user003 host=ws-032 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-05T23:43:34+00:00 user=user023 host=ws-002 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-21T06:12:26+00:00 user=user004 host=ws-026 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-08T04:09:06+00:00 user=user035 host=srv-file-01 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-15T18:29:12+00:00 user=bob.chen host=ws-006 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-01T00:53:44+00:00 user=user009 host=fw-edge-01 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-30T08:47:56+00:00 user=user022 host=ws-008 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-30T22:14:08+00:00 user=user048 host=ws-027 action=policy_reviewed controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-09T17:23:19+00:00 user=alice.wang host=ws-026 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-24T15:39:28+00:00 user=user030 host=ws-008 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-11T18:35:47+00:00 user=user012 host=ws-032 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-25T06:43:11+00:00 user=user044 host=lb-prod-01 action=audit_log_created controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-22T22:08:11+00:00 user=user028 host=ws-006 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-08T22:35:43+00:00 user=user024 host=ws-005 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T08:29:41+00:00 user=user038 host=ws-017 action=policy_reviewed controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-07T01:29:59+00:00 user=user026 host=ws-005 action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-25T21:43:50+00:00 user=user024 host=ws-030 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-10T16:54:43+00:00 user=user050 host=ws-009 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-05T20:58:07+00:00 user=user045 host=ws-019 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T00:51:42+00:00 user=user011 host=ws-007 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-16T04:45:17+00:00 user=user057 host=ws-035 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-26T17:03:20+00:00 user=user028 host=ws-008 action=access_review controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-21T01:00:22+00:00 user=user040 host=dc-secondary action=encryption_verified controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-12T04:04:28+00:00 user=bob.chen host=ws-022 action=access_review controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-11T07:34:01+00:00 user=user053 host=ws-020 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-09T20:58:58+00:00 user=user025 host=fw-edge-01 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-26T14:04:33+00:00 user=user008 host=ws-010 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-23T05:32:46+00:00 user=user045 host=ws-015 action=policy_reviewed controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-25T00:43:09+00:00 user=user036 host=dc-primary action=data_access controls=GDPR Art.33,GDPR Art.34 violation=YES:GDPR-DataBreachUnreported
+[AUDIT] 2026-10-19T21:12:44+00:00 user=user012 host=ws-019 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-05T12:06:41+00:00 user=user016 host=ws-039 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-15T13:35:23+00:00 user=user026 host=ws-015 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-03T06:26:47+00:00 user=user058 host=ws-021 action=encryption_verified controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-26T17:37:23+00:00 user=bob.chen host=ws-022 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-11T02:20:50+00:00 user=user002 host=ws-031 action=log_delete controls=SOC2 CC7.2 violation=YES:SOC2-AuditLogTampering
+[AUDIT] 2026-10-30T08:34:35+00:00 user=user011 host=ws-024 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-09T13:46:54+00:00 user=user018 host=ws-033 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-21T10:34:50+00:00 user=user050 host=lb-prod-01 action=encryption_verified controls=SOC2-compliant violation=NO
+[AUDIT] 2026-10-12T06:06:37+00:00 user=jane.smith host=fw-edge-01 action=data_query controls=GDPR Art.5 violation=YES:GDPR-ExcessiveRetention
+[AUDIT] 2026-10-01T05:56:21+00:00 user=user059 host=ws-031 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-07T21:15:53+00:00 user=user023 host=ws-003 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-13T12:30:28+00:00 user=user047 host=lb-prod-01 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-10T20:08:44+00:00 user=frank.müller host=ws-033 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-19T23:34:08+00:00 user=user002 host=srv-mail-01 action=policy_bypass controls=ISO 27001 A.18.1 violation=YES:ISO27001-PolicyViolation
+[AUDIT] 2026-10-10T11:38:13+00:00 user=user038 host=ws-019 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-09T01:22:03+00:00 user=user035 host=ws-032 action=audit_log_created controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-06T06:42:03+00:00 user=user047 host=ws-027 action=access_review controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-10T19:25:50+00:00 user=john.doe host=ws-005 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-22T10:58:27+00:00 user=user003 host=ws-038 action=audit_log_created controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-14T09:47:59+00:00 user=user024 host=ws-002 action=phi_access controls=HIPAA §164.312 violation=YES:HIPAA-UnauthorizedPHIAccess
+[AUDIT] 2026-10-13T05:35:15+00:00 user=user017 host=ws-028 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-05T18:10:39+00:00 user=user010 host=ws-039 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-16T18:15:27+00:00 user=user020 host=ws-035 action=audit_log_created controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-06T03:16:59+00:00 user=user059 host=ws-002 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-13T05:31:07+00:00 user=user043 host=ws-030 action=access_review controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-10T02:38:13+00:00 user=user009 host=ws-028 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-08T20:07:25+00:00 user=user056 host=ws-010 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN
+[AUDIT] 2026-10-07T06:08:00+00:00 user=user035 host=fw-edge-01 action=encryption_verified controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-08T20:20:14+00:00 user=user051 host=ws-008 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-21T10:55:08+00:00 user=user045 host=ws-002 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-17T07:22:32+00:00 user=user033 host=ws-023 action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-25T00:24:13+00:00 user=user004 host=ws-023 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-29T00:40:04+00:00 user=user041 host=dc-secondary action=encryption_verified controls=ISO27001-compliant violation=NO
+[AUDIT] 2026-10-23T12:53:29+00:00 user=jane.smith host=ws-025 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-19T00:53:38+00:00 user=user032 host=ws-017 action=audit_log_created controls=GDPR-compliant violation=NO
+[AUDIT] 2026-10-07T16:12:09+00:00 user=user058 host=ws-023 action=policy_reviewed controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-25T02:40:33+00:00 user=user025 host=ws-020 action=audit_log_created controls=PCI-DSS-compliant violation=NO
+[AUDIT] 2026-10-21T05:37:03+00:00 user=user041 host=ws-033 action=encryption_verified controls=NIST-CSF-compliant violation=NO
+[AUDIT] 2026-10-12T23:59:49+00:00 user=jane.smith host=ws-009 action=policy_reviewed controls=HIPAA-compliant violation=NO
+[AUDIT] 2026-10-29T09:02:57+00:00 user=user046 host=srv-db-01 action=data_exposure controls=PCI DSS Req.3 violation=YES:PCI-ClearTextPAN

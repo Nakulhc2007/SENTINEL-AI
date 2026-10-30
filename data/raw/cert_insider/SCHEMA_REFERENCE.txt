@@ -1,0 +1,43 @@
+# CERT Insider Threat Dataset r6.2 — Schema Reference
+# Source: Carnegie Mellon University Software Engineering Institute
+# DOI: https://doi.org/10.1184/R1/12841247.v1
+# License: Limited to research use — requires agreement
+
+## Files in r6.2.tar.bz2
+# logon.csv    — user login/logout events
+# device.csv   — USB device connect/disconnect events
+# email.csv    — email send/receive events
+# file.csv     — file access events
+# http.csv     — web browsing events
+# ldap/        — user demographic info (monthly snapshots)
+
+## Column schemas:
+
+### logon.csv
+# id,date,user,pc,activity
+# {LID},2010-01-02 07:43:48,ACM2278,PC-7115,Logon
+
+### device.csv
+# id,date,user,pc,activity
+# {DID},2010-01-04 10:11:47,ACM2278,PC-7115,Connect
+
+### email.csv
+# id,date,user,pc,to,cc,bcc,from,activity,size,attachments,content
+# {EID},2010-01-04 08:12:28,ACM2278,PC-7115,,,,,Send,1024,0,""
+
+### file.csv
+# id,date,user,pc,filename,activity
+# {FID},2010-01-04 09:22:10,ACM2278,PC-7115,C:\...\document.docx,file copy
+
+### http.csv
+# id,date,user,pc,url,activity,content
+# {HID},2010-01-04 08:05:12,ACM2278,PC-7115,http://...,WWW Visit,""
+
+## Download Instructions:
+# 1. Visit: https://kilthub.cmu.edu/articles/dataset/
+#           Insider_Threat_Test_Dataset/12841247/1
+# 2. Click "Request Access" and complete the DUA (Data Use Agreement)
+# 3. Download: r6.2.tar.bz2 (~1.5 GB) and answers.tar.bz2
+# 4. Extract with: tar -xjvf r6.2.tar.bz2
+# 5. Place files in: data/raw/cert_insider/r6.2/
+# 6. Re-run: python scripts/dataset_preparation/04_preprocess_cert.py

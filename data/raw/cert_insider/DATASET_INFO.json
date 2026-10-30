@@ -1,0 +1,32 @@
+{
+  "name": "CERT-Insider-Threat-r6.2",
+  "full_name": "CERT Insider Threat Test Dataset Release 6.2",
+  "domain": "insider_threat",
+  "source": "Carnegie Mellon University \u2014 Software Engineering Institute",
+  "official_url": "https://doi.org/10.1184/R1/12841247.v1",
+  "alternate_url": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508099",
+  "license": "Data Use Agreement required \u2014 research use only",
+  "files": [
+    "logon.csv",
+    "device.csv",
+    "email.csv",
+    "file.csv",
+    "http.csv",
+    "ldap/"
+  ],
+  "size_compressed": "~1.5 GB (r6.2.tar.bz2)",
+  "employees_simulated": 1000,
+  "timespan_days": 500,
+  "scenarios": 70,
+  "manually_download_required": true,
+  "download_steps": [
+    "1. Visit https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1",
+    "2. Complete the Data Use Agreement",
+    "3. Download r6.2.tar.bz2 and answers.tar.bz2",
+    "4. Extract to data/raw/cert_insider/r6.2/",
+    "5. Run: python scripts/dataset_preparation/04_preprocess_cert.py"
+  ],
+  "status": "manual_download_required",
+  "citation": "Lindauer, B. (2020). Insider Threat Test Dataset. Carnegie Mellon University. doi:10.1184/R1/12841247.v1",
+  "generated_at": "2026-10-30T08:11:36.586584+00:00"
+}

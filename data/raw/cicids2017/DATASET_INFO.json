@@ -1,0 +1,48 @@
+{
+  "name": "CIC-IDS-2017",
+  "full_name": "Canadian Institute for Cybersecurity Intrusion Detection Dataset 2017",
+  "domain": "network_security",
+  "source": "University of New Brunswick (UNB)",
+  "official_url": "https://www.unb.ca/cic/datasets/ids-2017.html",
+  "kaggle_mirror": "https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset-cic-ids-2017",
+  "license": "Research use only \u2014 non-commercial",
+  "attack_types": [
+    "BENIGN",
+    "DDoS",
+    "PortScan",
+    "Bot",
+    "Infiltration",
+    "Web Attack \u2013 Brute Force",
+    "Web Attack \u2013 XSS",
+    "Web Attack \u2013 SQL Injection",
+    "FTP-Patator",
+    "SSH-Patator",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "Heartbleed"
+  ],
+  "features_count": 79,
+  "total_records_full_dataset": 2830743,
+  "files_downloaded": [
+    {
+      "url": "http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/MachineLearningCSV/Monday-WorkingHours.pcap_ISCX.csv",
+      "filename": "Monday-WorkingHours.pcap_ISCX.csv",
+      "description": "Monday (Benign baseline traffic)",
+      "expected_rows_approx": 529918,
+      "sha256": "32829a8f57779c49981c530dc198a8ea68e872edb1ea4eb1a7a00b4ea20ec463",
+      "size_bytes": 108784
+    },
+    {
+      "url": "http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/MachineLearningCSV/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "filename": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "description": "Friday Afternoon \u2014 DDoS attacks",
+      "expected_rows_approx": 225745,
+      "sha256": "32829a8f57779c49981c530dc198a8ea68e872edb1ea4eb1a7a00b4ea20ec463",
+      "size_bytes": 108784
+    }
+  ],
+  "citation": "Iman Sharafaldin, Arash Habibi Lashkari, and Ali A. Ghorbani, Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization, 4th International Conference on Information Systems Security and Privacy (ICISSP), 2018",
+  "generated_at": "2026-10-30T08:11:34.892344+00:00"
+}

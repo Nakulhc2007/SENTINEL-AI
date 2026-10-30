@@ -1,0 +1,23 @@
+{
+  "name": "LogHub-HDFS",
+  "full_name": "LogHub HDFS Distributed System Logs",
+  "domain": "endpoint_security",
+  "source": "LogPAI (Peking University / The Chinese University of Hong Kong)",
+  "official_url": "https://github.com/logpai/loghub",
+  "zenodo": "https://zenodo.org/records/8196253",
+  "license": "MIT License",
+  "log_types": [
+    "HDFS DataNode logs",
+    "NameNode logs",
+    "block operation logs"
+  ],
+  "anomaly_ratio_full": "2.9%",
+  "full_dataset_lines": 11175629,
+  "files_available": [
+    "HDFS_templates.csv",
+    "HDFS_sample_5k.log"
+  ],
+  "note": "Full HDFS_1.log (~1.5 GB) available at Zenodo. A 5000-line representative sample is included here. anomaly_label.csv available at: https://raw.githubusercontent.com/logpai/loghub/master/HDFS/anomaly_label.csv",
+  "citation": "Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, and Michael R. Lyu. Loghub: A Large Collection of System Log Datasets for AI-Driven Log Analytics. IEEE ISSRE, 2023.",
+  "generated_at": "2026-10-30T08:11:36.582410+00:00"
+}

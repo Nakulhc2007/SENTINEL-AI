@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-10-30T08:45:59.329947+00:00",
+  "total_files": 8,
+  "grand_total": 12000,
+  "grand_real": 0,
+  "grand_synthetic": 12000,
+  "grand_attacks": 1746,
+  "grand_benign": 10254,
+  "attack_pct": 14.55,
+  "schema_errors": 0,
+  "domain_coverage": {
+    "application_security": 2000,
+    "cloud_infrastructure": 1500,
+    "compliance": 800,
+    "dlp": 1000,
+    "endpoint_security": 2000,
+    "iam": 1500,
+    "insider_threat": 1200,
+    "network_security": 2000
+  },
+  "files": [
+    {
+      "file": "application_security_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\application_security_synthetic_ces.csv",
+      "size_kb": 1294.4,
+      "total_records": 2000,
+      "real_records": 0,
+      "synthetic_records": 2000,
+      "attack_records": 292,
+      "benign_records": 1708,
+      "schema_errors": 0,
+      "integrity_ok": 94,
+      "integrity_fail": 0,
+      "domains": {
+        "application_security": 2000
+      },
+      "severity_dist": {
+        "info": 1708,
+        "low": 0,
+        "medium": 37,
+        "high": 182,
+        "critical": 73
+      },
+      "attack_types": {
+        "CSRF": 37,
+        "RFI": 36,
+        "LFI": 39,
+        "XSS": 34,
+        "PathTraversal": 44,
+        "BruteForce-API": 29,
+        "CmdInjection": 35,
+        "SQLi": 38
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "cloud_infrastructure_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\cloud_infrastructure_synthetic_ces.csv",
+      "size_kb": 952.9,
+      "total_records": 1500,
+      "real_records": 0,
+      "synthetic_records": 1500,
+      "attack_records": 249,
+      "benign_records": 1251,
+      "schema_errors": 0,
+      "integrity_ok": 72,
+      "integrity_fail": 0,
+      "domains": {
+        "cloud_infrastructure": 1500
+      },
+      "severity_dist": {
+        "info": 1251,
+        "low": 0,
+        "medium": 0,
+        "high": 111,
+        "critical": 138
+      },
+      "attack_types": {
+        "IAMPrivilegeEscalation": 25,
+        "RootAccountUsed": 40,
+        "CloudTrailDisabled": 36,
+        "SecGroupMisconfiguration": 31,
+        "S3DataExfiltration": 37,
+        "SecretsManagerDump": 27,
+        "LambdaBackdoor": 25,
+        "EC2CryptoMining": 28
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "compliance_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\compliance_synthetic_ces.csv",
+      "size_kb": 372.0,
+      "total_records": 800,
+      "real_records": 0,
+      "synthetic_records": 800,
+      "attack_records": 170,
+      "benign_records": 630,
+      "schema_errors": 0,
+      "integrity_ok": 42,
+      "integrity_fail": 0,
+      "domains": {
+        "compliance": 800
+      },
+      "severity_dist": {
+        "info": 630,
+        "low": 0,
+        "medium": 28,
+        "high": 47,
+        "critical": 95
+      },
+      "attack_types": {
+        "SOC2-ChangeWithoutApproval": 20,
+        "ISO27001-PolicyViolation": 13,
+        "HIPAA-UnauthorizedPHIAccess": 18,
+        "GDPR-ExcessiveRetention": 28,
+        "PCI-ClearTextPAN": 23,
+        "SOC2-AuditLogTampering": 26,
+        "GDPR-DataBreachUnreported": 28,
+        "HIPAA-EncryptionViolation": 14
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "dlp_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\dlp_synthetic_ces.csv",
+      "size_kb": 568.9,
+      "total_records": 1000,
+      "real_records": 0,
+      "synthetic_records": 1000,
+      "attack_records": 119,
+      "benign_records": 881,
+      "schema_errors": 0,
+      "integrity_ok": 44,
+      "integrity_fail": 0,
+      "domains": {
+        "dlp": 1000
+      },
+      "severity_dist": {
+        "info": 881,
+        "low": 17,
+        "medium": 34,
+        "high": 37,
+        "critical": 31
+      },
+      "attack_types": {
+        "ClipboardExfil": 17,
+        "EmailExfiltration": 18,
+        "LargeFileTransfer": 16,
+        "MassCloudUpload": 13,
+        "ScreenCaptureLeak": 15,
+        "PrintSensitiveDoc": 19,
+        "UnauthorizedRemote": 9,
+        "USBDataTransfer": 12
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "endpoint_security_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\endpoint_security_synthetic_ces.csv",
+      "size_kb": 936.0,
+      "total_records": 2000,
+      "real_records": 0,
+      "synthetic_records": 2000,
+      "attack_records": 306,
+      "benign_records": 1694,
+      "schema_errors": 0,
+      "integrity_ok": 117,
+      "integrity_fail": 0,
+      "domains": {
+        "endpoint_security": 2000
+      },
+      "severity_dist": {
+        "info": 1694,
+        "low": 0,
+        "medium": 0,
+        "high": 199,
+        "critical": 107
+      },
+      "attack_types": {
+        "PersistenceRegEdit": 39,
+        "MalwareExecution": 28,
+        "PowerShellObfusc": 48,
+        "LateralMovementPSExec": 49,
+        "MimikatzDump": 43,
+        "DLLInjection": 34,
+        "PrivilegeEscalation": 29,
+        "RansomwareEncrypt": 36
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "iam_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\iam_synthetic_ces.csv",
+      "size_kb": 722.0,
+      "total_records": 1500,
+      "real_records": 0,
+      "synthetic_records": 1500,
+      "attack_records": 218,
+      "benign_records": 1282,
+      "schema_errors": 0,
+      "integrity_ok": 56,
+      "integrity_fail": 0,
+      "domains": {
+        "iam": 1500
+      },
+      "severity_dist": {
+        "info": 1282,
+        "low": 0,
+        "medium": 24,
+        "high": 109,
+        "critical": 85
+      },
+      "attack_types": {
+        "PasswordSpray": 29,
+        "LDAP-Enum": 24,
+        "BruteForceRDP": 21,
+        "BruteForceSSH": 22,
+        "TokenTheft": 21,
+        "ImpossibleTravel": 25,
+        "MFABypass": 39,
+        "CredentialStuffing": 37
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "insider_threat_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\insider_threat_synthetic_ces.csv",
+      "size_kb": 533.2,
+      "total_records": 1200,
+      "real_records": 0,
+      "synthetic_records": 1200,
+      "attack_records": 115,
+      "benign_records": 1085,
+      "schema_errors": 0,
+      "integrity_ok": 47,
+      "integrity_fail": 0,
+      "domains": {
+        "insider_threat": 1200
+      },
+      "severity_dist": {
+        "info": 1085,
+        "low": 0,
+        "medium": 29,
+        "high": 46,
+        "critical": 40
+      },
+      "attack_types": {
+        "AccountSharing": 13,
+        "DataHoarding": 13,
+        "SystemSabotage": 14,
+        "ReconBeforeTermination": 20,
+        "CredentialHarvesting": 15,
+        "CompetitorResearch": 14,
+        "AfterHoursAccess": 15,
+        "PrivilegedAbuse": 11
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    },
+    {
+      "file": "network_security_synthetic_ces.csv",
+      "path": "data\\processed\\normalized\\network_security_synthetic_ces.csv",
+      "size_kb": 936.3,
+      "total_records": 2000,
+      "real_records": 0,
+      "synthetic_records": 2000,
+      "attack_records": 277,
+      "benign_records": 1723,
+      "schema_errors": 0,
+      "integrity_ok": 114,
+      "integrity_fail": 0,
+      "domains": {
+        "network_security": 2000
+      },
+      "severity_dist": {
+        "info": 1723,
+        "low": 0,
+        "medium": 75,
+        "high": 180,
+        "critical": 22
+      },
+      "attack_types": {
+        "Nmap-Scan": 42,
+        "SMB-Lateral": 40,
+        "DNS-Tunneling": 33,
+        "DDoS-SYN-Flood": 22,
+        "PortScan-Stealth": 42,
+        "Botnet-C2": 37,
+        "ICMP-Flood": 35,
+        "SQL-Injection-HTTP": 26
+      },
+      "missing_cols": [],
+      "validation_errors": []
+    }
+  ]
+}
